@@ -40,7 +40,7 @@ void setup() {
 
 	displaySetup();										// Setup OLED Display
 	sensorSetup();										// Setup DHT22 Sensor
-  delay(2000);
+  	delay(2000);
 
 	homeSpan.begin(Category::Bridges,"HomeSpan Bridge");
 
